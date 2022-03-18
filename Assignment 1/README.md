@@ -17,7 +17,7 @@ Dataset used in this network can be found here: https://archive.ics.uci.edu/ml/d
 ## Model Architecture
 The model architecture for this network is drawn below:
 
-![Model Architecture](/model_architecture.png)
+![Model Architecture](model_architecture.png)
 
 ## Parameter/Hyper Parameter Description
 I have used two hidden layers for training the model. For input layer, six attributes are taken as input. For first hidden layer twelve neurons are used and for second hidden layer eight neurons are used. For output layer, four neurons are used as the output attribute has four classes (unacc, acc, good, vgood).
@@ -31,8 +31,8 @@ All the layers are connected densely in this model. For first and second hidden 
 ## Result
 After training the model, accuracy curve and loss curve are generated as below:
 
-![Accuracy](/accuracy.png)
-![Loss](/loss.png)
+![Accuracy](accuracy.png)
+![Loss](loss.png)
 
 After training, 
 For test parameters, loss = 7%, accuracy = 97%
